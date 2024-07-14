@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0;
+  color: #ffcc00;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  font-size: 1em;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 100%;
+  }
+}
+
+.logo {
+  width: 100px;
+  margin: 20px auto;
+  display: block;
+}

@@ -1,0 +1,145 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.explorer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0;
+  color: #ffcc00;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  max-width: 80%;
+  font-size: 1em;
+  border: 1px solid #333;
+  border-radius: 4px 0 0 4px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #333;
+  border-radius: 0 4px 4px 0;
+  background-color: #ffcc00;
+  color: #121212;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+.coin-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.coin-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 1px solid #333;
+}
+
+.coin-card:hover {
+  transform: translateY(-5px);
+}
+
+.coin-logo {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.coin-name {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  color: #ffcc00;
+}
+
+.coin-price,
+.coin-market-cap,
+.coin-volume,
+.coin-high,
+.coin-low {
+  font-size: 0.8em;
+  margin-bottom: 3px;
+}
+
+.coin-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  color: #ffcc00;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.details-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.details-button .fa-arrow-right {
+  color: #ffcc00;
+}
+
+.details-button:hover .fa-arrow-right {
+  color: #e6b800;
+}
+
+.more-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1em;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #ffcc00;
+  color: #121212;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: #e6b800;
+}
