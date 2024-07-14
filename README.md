@@ -1,5 +1,7 @@
 Crypto Dashboard
 
+https://data-dashboard-sepia.vercel.app/
+
 Crypto Dashboard is a comprehensive application designed to provide real-time data and statistics on various cryptocurrencies. The application is built with React, TypeScript, and utilizes the CoinGecko API to fetch data. The UI is designed to be responsive and user-friendly, ensuring a seamless experience across different devices.
 
 ________________________________________
